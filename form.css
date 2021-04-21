@@ -1,58 +1,93 @@
 * {
   /* add border-box, reset margin and padding */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
   /* bg color #344a72 */
+  background-color: #344a72;
+  margin: 25px;
 }
 
 a {
   /* 
     remove underlined link */
+  text-decoration: none;
 }
 
 #container {
   /* center and add some padding */
+  margin: auto;
+  max-width: 500px;
 }
 
 .form-wrap {
   /* this is the white area */
+  background: #fff;
+  padding: 5%;
 }
 
 .form-wrap h1,
 .form-wrap p {
   /* center it */
+  text-align: center;
+  padding-bottom: 10px;
 }
 
 .form-wrap .form-group {
   /* each label input is wrapped in form group */
+  margin: auto;
+  max-width: 250px;
+  margin-bottom: 10px;
 }
 
 .formw-wrap .form-group label {
   /* make the label to a block element */
+  display: block;
 }
 
 .form-wrap .form-group input {
   /* inputs should reach across the .form-wrap 100%, and have some padding */
+  width: 100%;
+  padding: 10px;
 }
 
 .form-wrap button {
   /* button should wrap across 100% and display as block
     background color is #49c1a2 */
+  display: block;
+  margin: auto;
+  width: 60%;
+  background-color: #49c1a2;
+  border-radius: 5px;
+  color: white;
+  font-size: large;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .form-wrap button:hover {
   /* Hover bg color is #37a08e */
+  background-color: #37a08e;
 }
 
 .form-wrap .bottom-text {
   /* bottom text should be smaller */
+  margin-top: 25px;
+  size: 25%;
 }
 
 footer {
   /* center */
+  text-align: center;
+  color: white;
 }
 
 footer a {
   /* footer link color is #49c1a2 */
+  color: #49c1a2;
 }
