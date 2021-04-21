@@ -1,0 +1,58 @@
+* {
+  /* add border-box, reset margin and padding */
+}
+
+body {
+  /* bg color #344a72 */
+}
+
+a {
+  /* 
+    remove underlined link */
+}
+
+#container {
+  /* center and add some padding */
+}
+
+.form-wrap {
+  /* this is the white area */
+}
+
+.form-wrap h1,
+.form-wrap p {
+  /* center it */
+}
+
+.form-wrap .form-group {
+  /* each label input is wrapped in form group */
+}
+
+.formw-wrap .form-group label {
+  /* make the label to a block element */
+}
+
+.form-wrap .form-group input {
+  /* inputs should reach across the .form-wrap 100%, and have some padding */
+}
+
+.form-wrap button {
+  /* button should wrap across 100% and display as block
+    background color is #49c1a2 */
+}
+
+.form-wrap button:hover {
+  /* Hover bg color is #37a08e */
+}
+
+.form-wrap .bottom-text {
+  /* bottom text should be smaller */
+}
+
+footer {
+  /* center */
+}
+
+footer a {
+  /* footer link color is #49c1a2 */
+}
