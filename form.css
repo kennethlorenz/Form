@@ -9,7 +9,7 @@
 body {
   /* bg color #344a72 */
   background-color: #344a72;
-  margin: 25px;
+  line-height: 1.8;
 }
 
 a {
@@ -20,14 +20,15 @@ a {
 
 #container {
   /* center and add some padding */
-  margin: auto;
-  max-width: 500px;
+  margin: 25px auto;
+  max-width: 400px;
+  padding: 20px;
 }
 
 .form-wrap {
   /* this is the white area */
   background: #fff;
-  padding: 5%;
+  padding: 15px 25px;
 }
 
 .form-wrap h1,
@@ -39,9 +40,7 @@ a {
 
 .form-wrap .form-group {
   /* each label input is wrapped in form group */
-  margin: auto;
-  max-width: 250px;
-  margin-bottom: 10px;
+  margin-top: 15px;
 }
 
 .formw-wrap .form-group label {
@@ -53,21 +52,22 @@ a {
   /* inputs should reach across the .form-wrap 100%, and have some padding */
   width: 100%;
   padding: 10px;
+  border: #ddd 1px solid;
+  border-radius: 5px;
 }
 
 .form-wrap button {
   /* button should wrap across 100% and display as block
     background color is #49c1a2 */
   display: block;
-  margin: auto;
-  width: 60%;
+  width: 100%;
   background-color: #49c1a2;
   border-radius: 5px;
   color: white;
   font-size: large;
   padding: 10px;
   margin-top: 10px;
-  margin-bottom: 10px;
+  cursor: pointer;
 }
 
 .form-wrap button:hover {
@@ -78,13 +78,14 @@ a {
 .form-wrap .bottom-text {
   /* bottom text should be smaller */
   margin-top: 25px;
-  size: 25%;
+  font-size: 13px;
 }
 
 footer {
   /* center */
   text-align: center;
   color: white;
+  margin-top: 15px;
 }
 
 footer a {
